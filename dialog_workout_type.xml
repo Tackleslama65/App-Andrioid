@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Кнопка "Сила" -->
+    <Button
+        android:id="@+id/btn_strength"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Сила"
+        android:backgroundTint="@color/power"
+        android:textColor="@color/white" />
+
+    <!-- Разделитель между кнопками -->
+    <Space
+        android:layout_width="16dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Кнопка "Масса" -->
+    <Button
+        android:id="@+id/btn_mass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Масса"
+        android:backgroundTint="@color/massa"
+        android:textColor="@color/white" />
+
+</LinearLayout>

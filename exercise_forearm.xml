@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exercise_list7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/power"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Передпліччя"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise7_1" />
+
+        <TextView
+            android:id="@+id/text_exercise_7_1"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Згинання зап'ястя назад стоячи зі штангою"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_7_1"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise7_2" />
+
+        <TextView
+            android:id="@+id/text_exercise_7_2"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Обратний вигин зап'ястя сидячи зі штангою"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_7_2"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise7_3" />
+
+        <TextView
+            android:id="@+id/text_exercise_7_3"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Звичайний вигин зап'ястя сидячи зі штангою"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_7_3"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise7_4" />
+
+        <TextView
+            android:id="@+id/text_exercise_7_4"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Обратний вигин зап'ястя сидячи зі гантелею"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_7_4"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise7_5" />
+
+        <TextView
+            android:id="@+id/text_exercise_7_5"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Звичайний вигин зап'ястя сидячи зі гантелю"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_7_5"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_corners"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода названия тренировки -->
+    <EditText
+        android:id="@+id/edit_text_workout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="127px"
+        android:background="@drawable/fon_tex_traning"
+        android:hint="Введите название тренировки"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="#787062"
+        android:textColorLink="@color/selection_mode_background"
+        android:textSize="18sp"
+
+        android:textStyle="italic" />
+
+    <com.example.myapplication.calendar.CustomCalendarView
+        android:id="@+id/custom_calendar_view"
+        android:layout_width="286dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btn_strength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/power"
+        android:text="Сила"
+        android:textColor="@color/white" />
+
+    <!-- Кнопка для выбора "Масса" -->
+    <Button
+        android:id="@+id/btn_mass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/massa"
+        android:text="Масса"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btn_cancel_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D8D9CC"
+        android:text="Отмена"
+        android:textColor="@color/black" />
+</LinearLayout>

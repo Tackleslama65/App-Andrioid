@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exercise_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Грудь -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/power"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Грудь"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise1" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_1"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Жим лежачи (штанга)"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_1"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises2" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_2"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Жим лежачи під кутом (штанга)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_2"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises3" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_3"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Жим лежачи (гантелі)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_3"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises4" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_4"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Жим лежачи під кутом (гантелі)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_4"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises5" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_5"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Розведення гантелей"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_5"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises6" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_6"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Розведення гантелей під кутом"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_6"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises7" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_7"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Зведення рук у кросовері (з зверху)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_7"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercises8" />
+
+        <TextView
+            android:id="@+id/text_exercise_1_8"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Зведення рук у кросовері (зі снізу)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_1_8"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+</LinearLayout>

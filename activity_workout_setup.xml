@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/fon_app"
+    android:gravity="center|fill_vertical"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+
+    <TextView
+        android:id="@+id/tv_plan_title"
+        android:layout_width="267dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tex_seting_workout"
+        android:gravity="center" />
+
+        <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="619dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="25dp"
+        android:background="#B4CEBEAE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_plan_title"
+        app:layout_constraintVertical_bias="0.169">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_groups"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="11dp"
+                android:scrollbars="horizontal|vertical" />
+        </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="216dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onSaveClick"
+
+        android:text="Подтвердить" />
+</LinearLayout>

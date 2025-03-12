@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewExercise"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:fillViewport="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:background="#8C725E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Название упражнения -->
+        <TextView
+            android:id="@+id/exerciseNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Название упражнения"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Поля ввода для подходов, повторений и веса -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Подходы"
+                android:inputType="number"
+                android:textColorHint="@color/default_background"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Повторения"
+                android:inputType="number"
+                android:textColorHint="@color/default_background"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Вес (кг)"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/default_background"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/setsEditText"
+                android:hint="Подходы"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColorLink="@color/selection_mode_background" />
+
+            <EditText
+                android:id="@+id/repsEditText"
+                android:hint="Повторения"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="center"
+                android:textColorLink="@color/selection_mode_background"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/weightEditText"
+                android:hint="Вес (кг)"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="center"
+                android:textColorLink="@color/selection_mode_background"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <!-- Поле ввода для заметок -->
+        <EditText
+            android:id="@+id/noteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="top"
+            android:hint="Заметки"
+            android:inputType="textCapSentences"
+            android:minHeight="80dp"
+            android:textColorLink="@color/selection_mode_background"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

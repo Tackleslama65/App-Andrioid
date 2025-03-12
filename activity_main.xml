@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_app"
+
+    tools:context=".MainActivity">
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/tex_home_screen"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Кнопка "План тренировок" -->
+    <Button
+        android:id="@+id/btn_plan"
+        android:layout_width="950px"
+        android:layout_height="320px"
+        android:layout_margin="16dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/fon_text_main_activity_plan"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_results"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <!-- Кнопка "Результат упражнений" -->
+
+    <!-- Кнопка "Таймер" -->
+
+    <Button
+        android:id="@+id/btn_results"
+        android:layout_width="950px"
+        android:layout_height="320px"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/fon_text_main_activity_rezultat"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_timer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plan" />
+
+    <Button
+        android:id="@+id/btn_timer"
+        android:layout_width="950px"
+        android:layout_height="320px"
+        android:layout_margin="16dp"
+        android:background="@drawable/fon_text_main_activity_taimer"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_measures"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_results" />
+
+    <!-- Кнопка "Замеры" -->
+    <Button
+        android:id="@+id/btn_measures"
+        android:layout_width="950px"
+        android:layout_height="320px"
+        android:layout_margin="16dp"
+        android:background="@drawable/fon_text_main_activity_zamer"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_timer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

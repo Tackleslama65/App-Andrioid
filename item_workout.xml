@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/workoutName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@color/black"
+    android:foregroundTint="#FF0000"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- android:id="@+id/item_container"-->
+
+    <!-- Название тренировки -->
+    <TextView
+        android:id="@+id/tv_workout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="Название тренировки"
+        android:textColor="@color/default_background"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Тип тренировки -->
+    <TextView
+        android:id="@+id/tv_workout_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Тип тренировки"
+        android:textColor="@color/default_background"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_workout_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Date"
+        android:textColor="@color/default_background"
+        android:textSize="16sp" />
+
+</LinearLayout>

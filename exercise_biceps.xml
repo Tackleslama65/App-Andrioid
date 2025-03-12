@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exercise_list3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/power"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Бицепс"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise3_1" />
+
+        <TextView
+            android:id="@+id/text_exercise_3_1"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Підйом штанги (стоячи)"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_3_1"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise3_2" />
+
+        <TextView
+            android:id="@+id/text_exercise_3_2"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Підйом штанги (стоячи, кривоподібний гриф)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_3_2"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise3_3" />
+
+        <TextView
+            android:id="@+id/text_exercise_3_3"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Підйом гантелі(стоячи)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_3_3"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise3_4" />
+
+        <TextView
+            android:id="@+id/text_exercise_3_4"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Молоткі"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_3_4"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise3_5" />
+
+        <TextView
+            android:id="@+id/text_exercise_3_5"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Підйом штанги (сидячи)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_3_5"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#EA8C725E"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/exercise3_6" />
+
+        <TextView
+            android:id="@+id/text_exercise_3_6"
+            android:layout_width="263dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="Підйом гантелі (сидячи, під кутом)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/exercise_3_6"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
